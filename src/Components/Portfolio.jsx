@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "E-Commerce Web Application",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
+    url: "https://github.com/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Task Management Dashboard",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Modern task management application with real-time updates using React and Firebase. Includes drag-and-drop functionality and team collaboration features.",
+    url: "https://github.com/",
   },
   {
-    title: "My Resume Site",
+    title: "Weather Forecast App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Responsive weather application that provides real-time weather data and 7-day forecasts using OpenWeather API. Built with React and styled-components.",
+    url: "https://github.com/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Portfolio Website Builder",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A customizable portfolio template that helps developers create their personal websites quickly. Features smooth animations and mobile-first design.",
+    url: "https://github.com/",
   },
 ];
 
