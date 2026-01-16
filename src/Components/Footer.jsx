@@ -49,8 +49,9 @@ const Footer = (props) => {
         alignItems: "center",
         gap: "2.5rem",
         padding: "5rem 0 3rem",
-        backgroundColor: primaryColor,
-        width: "100vw"
+        backgroundColor: "rgba(0, 0, 0, 0.9)",
+        borderTop: "1px solid rgba(52, 211, 153, 0.4)",
+        width: "100vw",
       }}
     >
       <div
