@@ -31,28 +31,22 @@ const imageAltText = "Workspace with a laptop, notebook, cup of coffee and other
  */
 const projectList = [
   {
-    title: "E-Commerce Web Application",
+    title: "Lair of Xaldern",
     description:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
-    url: "https://github.com/johndev/ecommerce-app",
+      "A Python project focused on building a functional game engine from scratch. Developed core logic for player navigation across multiple rooms and implemented an item acquisition system. This project allowed me to practice state management and structured coding before starting my formal CS coursework.",
+    url: "https://github.com/MrMadHatt/Lair-of-Xaldern",
   },
   {
-    title: "Task Management Dashboard",
+    title: "Hiero SDK Python (Fork)",
     description:
-      "Modern task management application with real-time updates using React and Firebase. Includes drag-and-drop functionality and team collaboration features.",
-    url: "https://github.com/johndev/task-dashboard",
+      "Contributing to the Hiero SDK for Python - a toolkit for creating, updating, and interacting with on-ledger assets and smart contracts on Hedera. Working with blockchain technology and distributed ledger systems.",
+    url: "https://github.com/MrMadHatt/hiero-sdk-python",
   },
   {
-    title: "Weather Forecast App",
+    title: "Web Dev Practice",
     description:
-      "Responsive weather application that provides real-time weather data and 7-day forecasts using OpenWeather API. Built with React and styled-components.",
-    url: "https://github.com/johndev/weather-app",
-  },
-  {
-    title: "Portfolio Website Builder",
-    description:
-      "A customizable portfolio template that helps developers create their personal websites quickly. Features smooth animations and mobile-first design.",
-    url: "https://github.com/johndev/portfolio-builder",
+      "A project focused on mastering CSS Flexbox and Grid layouts using semantic HTML structure. Hands-on practice with modern web development techniques and responsive design principles.",
+    url: "https://github.com/MrMadHatt/web-dev-practice",
   },
 ];
 

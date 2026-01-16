@@ -24,19 +24,21 @@ const imageAltText = "A computer screen displaying lines of code";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a passionate developer with expertise in building modern web applications. I specialize in creating elegant solutions to complex problems using cutting-edge technologies.";
+  "Student at Pikes Peak State College pursuing a degree in Computer Science. Passionate about front/back-end development and game design, with a keen interest in AI and machine learning technologies. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "JavaScript & TypeScript",
-  "React & Node.js",
+  "Python",
+  "HTML, CSS, JavaScript",
   "UI/UX Design",
-  "Responsive Web Design",
-  "Cloud Computing",
-  "Problem Solving",
+  "SQLlite",
+  "Game engine development",
+  "Microsoft Office Suite",
+  "Git/GitHub",
+  "Learning: React.js, Node.js, PyPi Packages, Pandas, Front and back-end web development.",
 ];
 
 /**
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I believe in writing clean, maintainable code and creating user experiences that are both beautiful and functional. My goal is to leverage technology to build products that make a positive impact on people's lives.";
+  '"Debugging is like being the detective in a crime movie where you\'re also the murderer." - Every developer ever';
 
 const About = () => {
   return (
