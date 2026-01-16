@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/linesofcode-unsplash.jpg";
+import imageUrl from "url:../images/linesofcode-unsplash.jpg";
 
 const imageAltText = "A computer screen displaying lines of code";
 
@@ -52,14 +52,15 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+      <img className="background" src={imageUrl} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "rgba(0, 0, 0, 0.85)",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          color: "white",
         }}
       >
         <h2>About Myself</h2>
@@ -68,10 +69,11 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
+            columns: 1,
+            fontSize: "1rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            lineHeight: "1.8",
           }}
         >
           {skillsList.map((skill) => (

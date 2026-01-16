@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/workspace-unsplash.jpg";
+import imageUrl from "url:../images/workspace-unsplash.jpg";
 
 const imageAltText = "Workspace with a laptop, notebook, cup of coffee and other items on desk";
 
@@ -52,12 +52,12 @@ const projectList = [
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+    <section className="padding" id="portfolio" style={{ backgroundColor: "rgba(0, 0, 0, 0.9)" }}>
+      <h2 style={{ textAlign: "center", color: "white" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
-            src={image}
+            src={imageUrl}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />

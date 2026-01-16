@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
+import arrowSvg from "url:../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -20,14 +20,14 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/DosomethingGreat_unsplash.jpg";
+import imageUrl from "url:../images/DosomethingGreat_unsplash.jpg";
 
 const imageAltText = "A sign that says 'Do Something Great'";
 
-const Home = ({ name, title }) => {
+const Home = ({ name = "", title = "" }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background home-background" src={image} alt={imageAltText} />
+      <img className="background home-background" src={imageUrl} alt={imageAltText} />
       <div
         style={{
           position: "absolute",
@@ -42,20 +42,15 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <img src={arrowSvg} className="bounce-arrow" style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
     </section>
   );
 };
 
-Home.defaultProps = {
-  name: "",
-  title: "",
-};
-
 Home.propTypes = {
-  name: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  title: PropTypes.string,
 };
 
 export default Home;
