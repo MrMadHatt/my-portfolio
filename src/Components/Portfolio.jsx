@@ -34,25 +34,25 @@ const projectList = [
     title: "E-Commerce Web Application",
     description:
       "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
-    url: "https://github.com/",
+    url: "https://github.com/johndev/ecommerce-app",
   },
   {
     title: "Task Management Dashboard",
     description:
       "Modern task management application with real-time updates using React and Firebase. Includes drag-and-drop functionality and team collaboration features.",
-    url: "https://github.com/",
+    url: "https://github.com/johndev/task-dashboard",
   },
   {
     title: "Weather Forecast App",
     description:
       "Responsive weather application that provides real-time weather data and 7-day forecasts using OpenWeather API. Built with React and styled-components.",
-    url: "https://github.com/",
+    url: "https://github.com/johndev/weather-app",
   },
   {
     title: "Portfolio Website Builder",
     description:
       "A customizable portfolio template that helps developers create their personal websites quickly. Features smooth animations and mobile-first design.",
-    url: "https://github.com/",
+    url: "https://github.com/johndev/portfolio-builder",
   },
 ];
 
