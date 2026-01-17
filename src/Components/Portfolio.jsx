@@ -61,6 +61,9 @@ const Portfolio = () => {
           justifyContent: "center",
           alignItems: "center",
           gap: "2.5rem",
+          width: "100%",
+          maxWidth: "1100px",
+          margin: "0 auto",
           paddingTop: "3rem",
         }}
       >
