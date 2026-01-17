@@ -52,7 +52,7 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={imageUrl} alt={imageAltText} />
+      <img className="background" src={imageUrl} alt={imageAltText} loading="lazy" />
       <div
         style={{
           backgroundColor: "rgba(0, 0, 0, 0.85)",

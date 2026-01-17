@@ -60,6 +60,7 @@ const Portfolio = () => {
             src={imageUrl}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
+            loading="lazy"
           />
         </div>
         <div className="container">
