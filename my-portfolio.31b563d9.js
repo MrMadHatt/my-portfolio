@@ -25026,8 +25026,8 @@ var _stylesCss = require("./styles.css");
     name: "Dominiq Barbero",
     title: "Aspiring Full-Stack Developer | Student at Pikes Peak State College",
     email: "mr.dom.barbero@gmail.com",
-    gitHub: "https://github.com/MrMadHatt",
-    linkedIn: "https://www.linkedin.com/in/dominiq-barbero",
+    gitHub: "MrMadHatt",
+    linkedIn: "dominiq-barbero",
     twitch: "mr_madhat"
 };
 const primaryColor = "#4E567E";
@@ -27806,7 +27806,7 @@ $RefreshReg$(_c, "Footer");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","prop-types":"GNqOQ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../images/socials/devdotto.svg":"2L3nD","url:../images/socials/envelope.svg":"93VzG","url:../images/socials/github.svg":"jX1li","url:../images/socials/instagram.svg":"4da6D","url:../images/socials/linkedin.svg":"cklqw","url:../images/socials/medium.svg":"lJVEq","url:../images/socials/twitter.svg":"3ZDcC","url:../images/socials/youtube.svg":"87r95"}],"GNqOQ":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","prop-types":"GNqOQ","url:../images/socials/devdotto.svg":"2L3nD","url:../images/socials/envelope.svg":"93VzG","url:../images/socials/github.svg":"jX1li","url:../images/socials/instagram.svg":"4da6D","url:../images/socials/linkedin.svg":"cklqw","url:../images/socials/medium.svg":"lJVEq","url:../images/socials/twitter.svg":"3ZDcC","url:../images/socials/youtube.svg":"87r95","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"GNqOQ":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28785,11 +28785,11 @@ $RefreshReg$(_c, "Home");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","prop-types":"GNqOQ","url:../images/DosomethingGreat_unsplash.jpg":"aZu9E","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../images/down-arrow.svg":"ce6oJ"}],"aZu9E":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("DosomethingGreat_unsplash.74c93d3d.jpg") + "?" + Date.now();
-
-},{}],"ce6oJ":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","url:../images/down-arrow.svg":"ce6oJ","prop-types":"GNqOQ","url:../images/DosomethingGreat_unsplash.jpg":"aZu9E","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"ce6oJ":[function(require,module,exports,__globalThis) {
 module.exports = module.bundle.resolve("down-arrow.685cdc2e.svg") + "?" + Date.now();
+
+},{}],"aZu9E":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("DosomethingGreat_unsplash.74c93d3d.jpg") + "?" + Date.now();
 
 },{}],"28kHR":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e4b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
