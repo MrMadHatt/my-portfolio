@@ -54,7 +54,16 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio" style={{ backgroundColor: "rgba(0, 0, 0, 0.9)" }}>
       <h2 style={{ textAlign: "center", color: "white" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "2.5rem",
+          paddingTop: "3rem",
+        }}
+      >
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={imageUrl}
