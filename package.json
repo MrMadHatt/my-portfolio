@@ -6,6 +6,7 @@
   "homepage": "https://MrMadHatt.github.io/my-portfolio",
   "scripts": {
     "start": "parcel",
+    "dev:local": "parcel --host 127.0.0.1 --port 1234",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://MrMadHatt.github.io/my-portfolio'",
     "predeploy": "npm run build-gh",
