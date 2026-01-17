@@ -60,17 +60,22 @@ const Portfolio = () => {
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",
-          gap: "2.5rem",
+          gap: "3rem",
           width: "100%",
-          maxWidth: "1100px",
-          margin: "0 auto",
+          maxWidth: "1200px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          marginTop: 0,
+          marginBottom: 0,
           paddingTop: "3rem",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
         }}
       >
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ flex: "0 0 55%", minWidth: 0, marginLeft: "-180px" }}>
           <img
             src={imageUrl}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "auto", objectFit: "cover" }}
             alt={imageAltText}
             loading="lazy"
           />
