@@ -24,21 +24,19 @@ const imageAltText = "A computer screen displaying lines of code";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "Student at Pikes Peak State College pursuing a degree in Computer Science. Passionate about front/back-end development and game design, with a keen interest in AI and machine learning technologies. ";
+  "Computer Science Student at Pikes Peak State College with a focus on building scalable web applications and interactive game environments. " +
+  "Passionate developer dedicated to turning complex problems into functional, user-friendly solutions. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Python",
-  "HTML, CSS, JavaScript",
-  "UI/UX Design",
-  "SQLlite",
-  "Game engine development",
-  "Microsoft Office Suite",
-  "Git/GitHub",
-  "Learning: React.js, Node.js, PyPi Packages, Pandas, Front and back-end web development.",
+  "Languages: Python, Javascript, HTML5/CSS3",
+  "Frameworks/tools: Git/GitHub",
+  "Data & Backend: SQLite, Obsidian",
+  "Software: VSCode, Jupyter Notebook, Microsoft Office Suite, PyPi Packages",
+  "Learning: React.js, Node.js, PyPi Packages, Docker, Pandas, Front and back-end web development, SQLite.",
 ];
 
 /**

@@ -48,6 +48,18 @@ const projectList = [
       "A project focused on mastering CSS Flexbox and Grid layouts using semantic HTML structure. Hands-on practice with modern web development techniques and responsive design principles.",
     url: "https://github.com/MrMadHatt/web-dev-practice",
   },
+  {
+    title: "Phrase Generator",
+    description:
+      " A project written in Javascript, HTML, and CSS that generates random phrases and AI-powered images based on user-preferences.",
+    url: "https://github.com/MrMadHatt/phrase-generator",
+  },
+  {
+    title: "Dev Prompts",
+    description:
+      "A curated list of programming prompts designed to assist developers in getting better responses from ChatGPT, Claude, and GitHub Copilot.",
+    url: "https://github.com/MrMadHatt/dev-prompts",
+  },
 ];
 
 const Portfolio = () => {
