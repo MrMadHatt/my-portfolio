@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "homepage": "https://MrMadHatt.github.io/my-portfolio",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel --host 0.0.0.0",
     "dev:local": "parcel --host 127.0.0.1 --port 1234",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://MrMadHatt.github.io/my-portfolio'",
