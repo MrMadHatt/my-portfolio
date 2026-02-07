@@ -17,6 +17,7 @@ import instagramIcon from "url:../images/socials/instagram.svg";
 import linkedInIcon from "url:../images/socials/linkedin.svg";
 import mediumIcon from "url:../images/socials/medium.svg";
 import twitterIcon from "url:../images/socials/twitter.svg";
+import twitchIcon from "url:../images/socials/twitch.svg";
 import youTubeIcon from "url:../images/socials/youtube.svg";
 
 /**
@@ -36,9 +37,9 @@ const Footer = ({
   name = "",
   primaryColor = "",
   twitter = "",
+  twitch = "",
   youTube = "",
 }) => {
-
   return (
     <div
       id="footer"
@@ -103,6 +104,11 @@ const Footer = ({
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
+        {twitch && (
+          <a href={`https://www.twitch.tv/${twitch}`} target="_blank" rel="noopener noreferrer">
+            <img src={twitchIcon} alt="Twitch" className="socialIcon" />
+          </a>
+        )}
         {youTube && (
           <a
             href={`https://www.youtube.com/c/${youTube}`}
@@ -130,6 +136,7 @@ Footer.propTypes = {
   name: PropTypes.string,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
+  twitch: PropTypes.string,
   youTube: PropTypes.string,
 };
 
