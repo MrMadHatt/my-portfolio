@@ -28966,7 +28966,8 @@ const Portfolio = ()=>{
                                         style: {
                                             display: "flex",
                                             gap: "1.5rem",
-                                            marginTop: "10px"
+                                            marginTop: "10px",
+                                            justifyContent: "center"
                                         },
                                         children: [
                                             project.liveUrl && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28981,7 +28982,7 @@ const Portfolio = ()=>{
                                                 children: "Live Demo"
                                             }, void 0, false, {
                                                 fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 104,
+                                                lineNumber: 111,
                                                 columnNumber: 19
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28996,7 +28997,7 @@ const Portfolio = ()=>{
                                                 children: "View Code"
                                             }, void 0, false, {
                                                 fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 113,
+                                                lineNumber: 120,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
