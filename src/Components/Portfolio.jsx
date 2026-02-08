@@ -60,6 +60,7 @@ const projectList = [
     description:
       "A curated list of programming prompts designed to assist developers in getting better responses from ChatGPT, Claude, and GitHub Copilot.",
     url: "https://github.com/MrMadHatt/dev-prompts",
+    liveUrl: "https://mrmadhatt.github.io/dev-prompts/",
   },
 ];
 
