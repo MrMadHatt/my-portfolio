@@ -99,7 +99,14 @@ const Portfolio = () => {
               <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <p className="small">{project.description}</p>
 
-              <div style={{ display: "flex", gap: "1.5rem", marginTop: "10px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "1.5rem",
+                  marginTop: "10px",
+                  justifyContent: "center",
+                }}
+              >
                 {project.liveUrl && (
                   <a
                     href={project.liveUrl}
