@@ -53,6 +53,7 @@ const projectList = [
     description:
       " A project written in Javascript, HTML, and CSS that generates random phrases and AI-powered images based on user-preferences.",
     url: "https://github.com/MrMadHatt/phrase-generator",
+    liveUrl: "https://mrmadhatt.github.io/phrase-generator/",
   },
   {
     title: "Dev Prompts",
@@ -95,10 +96,29 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
-              </a>
+              <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               <p className="small">{project.description}</p>
+
+              <div style={{ display: "flex", gap: "1.5rem", marginTop: "10px" }}>
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#4e9af1", fontWeight: "bold", textDecoration: "none" }}
+                  >
+                    Live Demo
+                  </a>
+                )}
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white", opacity: 0.7, textDecoration: "none" }}
+                >
+                  View Code
+                </a>
+              </div>
             </div>
           ))}
         </div>
