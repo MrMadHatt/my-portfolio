@@ -1,4 +1,4 @@
-# Dominiq Barbero's Portfolio
+# MrMadHatt's Portfolio
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-Visit-blue)](https://MrMadHatt.github.io/my-portfolio)
 [![GitHub](https://img.shields.io/badge/GitHub-MrMadHatt-black)](https://github.com/MrMadHatt)
