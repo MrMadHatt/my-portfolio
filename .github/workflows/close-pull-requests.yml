@@ -3,6 +3,10 @@ on:
   pull_request_target:
     types: [opened, labeled, unlabeled, reopened]
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   auto_close:
     runs-on: ubuntu-latest
